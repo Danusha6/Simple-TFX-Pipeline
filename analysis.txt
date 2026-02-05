@@ -1,0 +1,9 @@
+Simple TFX Pipeline
+
+2. In this example I worked with a simple machine learning pipeline built using TensorFlow TFX and the penguin dataset. When I ran the tutorial the first part did not run due to a compatibility issue with the current Google Colab environment. Even though the code did not fully execute I reviewed the full pipeline structure provided in the tutorial. The pipeline starts by loading the dataset into the system. I then generate basic statistics to understand the data and check for missing or incorrect values. A data schema is created to define the expected data types and rules. The data is validated against this schema to identify possible issues. Next I transform the data so it can be used consistently during training and prediction. After that I train a machine learning model using the processed data. Finally I evaluate the model to measure its performance before it is considered ready for use.
+
+3. This pipeline can be improved in several ways. I can add automatic tuning to find better model settings instead of using fixed values. I can include more advanced data transformations to improve model performance. I can also add a deployment step so the model is automatically released after passing evaluation. Stronger data validation rules would help catch more data problems. The pipeline could also be improved by retraining the model automatically when new data becomes available or when performance declines.
+
+
+AI Transparency
+AI tool was used for grammatical assistance and to help troubleshoot technical issues related to the tutorial not running in the current environment. 
